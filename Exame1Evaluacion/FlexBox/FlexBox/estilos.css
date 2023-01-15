@@ -1,0 +1,160 @@
+html {
+    background-color: white;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    background-color: rgb(61, 68, 149);
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.topnav-right {
+    float: right;
+  }
+.topnav-right a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.topnav-right a:hover{
+    color: red;
+}
+header h1{
+    text-align: left;
+    margin-left: 50px;
+}
+/*MAIN*/
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+.grid-container { 
+    height: 100%;
+    width: 70%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    float: right;
+    margin-left: auto;
+
+}
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 60px;
+    font-size: 20px;
+    text-align: left;
+    width: 70px;
+  }
+.grid-item img{
+    height: 55%;
+}
+.grid-item h3{
+    font-size: 10px;
+    width: 100%;
+}
+.grid-item p{
+    font-size: 10px;
+    width: 100%;
+}
+.flex-container {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    padding: 5px;
+    
+  }
+.flex-container .fakeimg {
+    
+    width: 100%;
+    height: 10px;
+    size: 12px;
+    margin: 5px;
+  }
+.flex-container > div {
+   
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+    line-height: 8px;
+    font-size: 30x;
+}
+.flex-container button{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(61, 68, 149);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+footer p{
+    color:white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: red;
+}
+footer h1{
+    text-align: right;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.footer-p{
+    float: left;
+    text-decoration: none;
+    margin: auto;
+}
+
+  
+  
+/* larger screen */
+@media screen and (min-width: 30rem) {
+body {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      border-bottom: 0.5rem solid;
+    }
+    nav, header {
+      order: -1;
+    }
+    article {
+      flex: 75%;
+    }
+    aside {
+      flex: 25%;
+    }
+    #imagen{
+        text-align: center;
+        
+    }
+    #principal{
+        text-align:center;
+    }
+}
