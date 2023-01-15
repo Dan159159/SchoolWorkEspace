@@ -1,0 +1,59 @@
+/*NavBAr*/
+header {
+    background-color: rgb(61, 68, 149);
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+header h1{
+    text-align: left;
+    margin: auto;
+    margin-left: 15px;
+}
+nav{
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+/*NavBAr*/
+img{
+    width: 200px;
+    height: 180px;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    margin: 0 5 5 0px;
+    border-color: aqua;
+}
+a { margin: 0 5px 0 5px; }
+button:hover{
+    color: rgb(0, 255, 0);
+}
+/*FOTTER*/
+footer{
+    background-color: blueviolet;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    color:white;
+}
+footer a:hover{
+    color: rgb(0, 255, 149);
+    text-decoration: none;
+}
+footer h1{
+    text-align: right;
+    color: white;
+}
+/*FOTTER*/
