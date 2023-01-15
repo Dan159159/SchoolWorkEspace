@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog DAN</title>
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/x-icon" href="imagenes/logoD.png">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="css/bootstrap-grid.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>     
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="btn-group" class=" col-12">
+            <a type="submit" class="btn btn-primary" href="inicio.html">Inicio</a>
+            <a type="submit" class="btn btn-primary" href="subcripcion.html">Subcripcion </a>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                   Entrada
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="basedatos.html">BBSS</a>
+                  <a class="dropdown-item" href="lenguajemarcas.html">LM</a>
+                  <a class="dropdown-item" href="#">SSII</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                   Contacto
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" >Gmail: Tumorenito69@gamil.com</a>
+                  <a class="dropdown-item" >Tlfn: +34 698 352 411</a>
+                </div>
+              </div>
+      </div><hr>
+      <h1>Base de Datos</h1>
+      <h2>¿Qué es la normazilazión?</h2>
+      <div class="row align-items-center">
+        <iframe style="margin: auto;"class="BLOG_video_class" height="400" height="" src="https://www.youtube.com/embed/bO18omSzeR4" width="700" heigh="800" youtube-src-id="bO18omSzeR4"></iframe><span style="color: #333333; font-family: arial;"></span>
+      </div><br>
+      <div class="col-12">
+        <h3>Primera forma normal</h3>
+        <div class="container-fluid">
+          <div class="row" style="align-items:left">
+            <div class="col">
+             <ul>
+               <li>Elimine los grupos repetidos de las tablas individuales.</li><br><li>Cree una tabla independiente para cada conjunto de datos relacionados. </li><br><li>Identifique cada conjunto de datos relacionados con una clave principal.</li><br>
+             </ul>
+             <p>No use varios campos en una sola tabla para almacenar datos similares.</p>
+             </div>
+            <div  class="col">
+              <img src="imagenes/tabla0.png" width="400" height="300">
+            </div>
+          </div>
+        </div>
+        <h3>Segunda forma normal</h3><br>
+        <div class="container-fluid">
+          <div class="row" style="align-items:left">
+            <div class="col-6">
+              <ul>
+                <li>Cree tablas independientes para conjuntos de valores que se apliquen a varios registros.</li><br><li>Relacione estas tablas con una clave externa.</li><br><br>
+             </ul>
+              <p>Los registros no deben depender de nada que no sea una clave principal de una tabla, una clave compuesta si es necesario.</p><br>
+           </div>
+           <div class="col-6">
+              <img src="imagenes/tabla1.png" width="400" height="300">
+           </div>
+          </div>  
+        </div>
+        <h3>Tercera forma normal</h3>
+        <div class="container-fluid">
+          <div class="row" style="align-items:left">
+            <div class="col-6">
+              <ul>
+                  <li>Elimine los campos que no dependan de la clave.</li><br>
+              </ul>
+             <p>Los valores de un registro que no sean parte de la clave de ese registro no pertenecen a la tabla. En general, siempre que el contenido de un grupo de campos pueda aplicarse a más de un único registro de la tabla, considere colocar estos campos en una tabla independiente.</p><br><br>
+            </div>
+            <div class="col-6">
+              <img src="imagenes/tabla2.png" width="500" height="400">
+            </div>
+          </div>
+        </div>
+
+
+      
+      
+      
+      </div>
+
+        
+
+        
+        
+
+
+
+        
+    </body>
+</html>

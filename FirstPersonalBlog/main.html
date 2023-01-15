@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+    
+    <head>
+        <title>Blog DAN</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body>
+    <div class=" col-8">
+      <ul>
+        <li><a href="./inicio.html">Inicio</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a  active href="./main.html">Subscribirse</a></li>
+       <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <form action="/action_page.php" style="border:1px solid #ccc" class="col-12">
+      <div class="container">
+        <h1>Subscribirse</h1>
+        <p>Rellena el formulario</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Contraseña</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <label for="psw-repeat"><b>Repite contraseña</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <br>
+        <label>
+          <input type="checkbox"  checked="checked" name="remember" style="margin-bottom:25px"> Recuerdame
+        </label>
+        <p>Creando la cuenta acepto estás condiciones <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancelar</button>
+          <button type="submit" class="signupbtn">Iniciar Sesión</button>
+        </div>
+      </div>
+    </form>
+    
+    </body>
+    
+  </html>
